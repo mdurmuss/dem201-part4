@@ -22,7 +22,7 @@ Bu noktadan itibaren **result** tablosu ile title-ratings tablosunu join ile bir
   SELECT r.*,ra.average_rating FROM result r join imdb.title_ratings ra on r.title_id = ra.title_id ORDER BY ra.average_rating DESC limit 5;
   ```
 
-  ![6a](/Users/md/mustafa/dem201/homework/data2base/madde6/images/6a.png)
+  ![6a](./images/6a.png)
 
 - 6.B
 
@@ -31,7 +31,7 @@ Bu noktadan itibaren **result** tablosu ile title-ratings tablosunu join ile bir
   SELECT r.*,ra.average_rating FROM result r join imdb.title_ratings ra on r.title_id = ra.title_id ORDER BY ra.average_rating limit 5;
   ```
 
-  ![6b](/Users/md/mustafa/dem201/homework/data2base/madde6/images/6b.png)
+  ![6b](./images/6b.png)
 
 - 6.C
 
@@ -40,7 +40,7 @@ Bu noktadan itibaren **result** tablosu ile title-ratings tablosunu join ile bir
   SELECT r.*,ra.num_votes FROM result r join imdb.title_ratings ra on r.title_id = ra.title_id ORDER BY ra.num_votes DESC limit 5;
   ```
 
-  ![6c](/Users/md/mustafa/dem201/homework/data2base/madde6/images/6c.png)
+  ![6c](./images/6c.png)
 
 - 6.D
 
@@ -49,5 +49,5 @@ Bu noktadan itibaren **result** tablosu ile title-ratings tablosunu join ile bir
 SELECT r.*,ra.num_votes FROM result r join imdb.title_ratings ra on r.title_id = ra.title_id ORDER BY ra.num_votes limit 5;
 ```
 
-![6d](/Users/md/mustafa/dem201/homework/data2base/madde6/images/6d.png)
+![6d](./images/6d.png)
 
