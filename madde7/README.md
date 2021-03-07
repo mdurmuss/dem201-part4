@@ -3,10 +3,10 @@
 2. 2000 yılından günümüze bir filmde müzik departmanında da yer almış aktrislerin listesi
 
 ```sql
--- 7s
+-- 1s
 SELECT * FROM name_basics WHERE birth_year > 2000 AND primary_profession LIKE '%actress%' AND primary_profession LIKE '%music%';
 
--- 7s 
+-- 1s 
 SELECT * FROM name_basics WHERE birth_year > 2000 AND primary_profession LIKE '%actress%' AND primary_profession LIKE '%compo%';
 ```
 
